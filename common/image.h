@@ -14,13 +14,11 @@ class IMAGE
 public:
     Mat image;
 
-
     IMAGE( int w, int h) 
     {
         image = Mat::zeros(w,h,CV_8UC4);
-        imshow("images",image);
+//        imshow("images",image);
     }
-
 
     unsigned char* get_ptr( void ) const   
     { 
@@ -32,11 +30,16 @@ public:
 		return image.cols * image.rows * 4; 
     }
 
-
     char show_image(int time=0)
     {
         imshow("images",image);
         return waitKey(time);
+    }
+
+    void write_image()
+    {
+        imwrite("julia.jpg", image);
+
     }
 
 };

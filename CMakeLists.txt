@@ -1,7 +1,10 @@
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.1)
 project(cuda_by_example)
 
-#folder
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+#folderf
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 
 #outpath
