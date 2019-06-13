@@ -1,4 +1,3 @@
-#include "cuda.h"
 #include "../common/book.h"
 #include "../common/image.h"
 
@@ -35,6 +34,18 @@ void cleanUp( DataBlock *d){
     cudaFree(d->dev_bitmap);
 }
 
+void generate_frame(DataBlock *d, int ticks){
+
+    dim3 blocks(DIM / 16, DIM / 16);
+    dim3 threads(16, 16);
+
+    kernel<<<blocks, threads>>>(d->dev_bitmap, ticks);
+
+    cudaMemcpy(d->bitmap->get_ptr(), d->dev_bitmap, d->bitmap->image_size(),
+            cudaMemcpyDeviceToHost);
+
+}
+
 int main(void){
     DataBlock data;
     IMAGE bitmap(DIM, DIM);
@@ -47,6 +58,17 @@ int main(void){
 
     int tricks = 0;
     bitmap.show_image(30);
+    while(1){
+        generate_frame(&data, tricks);
+        tricks++;
+        char key = bitmap.show_image(30);
+        if(key == 27)
+        {
+            break;
+        }
+
+    }
+    cleanUp(&data);
 
 
 }
