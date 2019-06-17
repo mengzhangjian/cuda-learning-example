@@ -1,5 +1,0 @@
-/usr/share/clion-2019.1.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/zhangjian/Documents/cuda-learning-example
--- Found CUDA: /usr/local/cuda-9.0 (found version "9.0") 
--- Configuring done
--- Generating done
--- Build files have been written to: /home/zhangjian/Documents/cuda-learning-example
