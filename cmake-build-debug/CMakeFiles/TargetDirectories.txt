@@ -1,0 +1,5 @@
+/home/zhangjian/Documents/cuda-learning-example/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/zhangjian/Documents/cuda-learning-example/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zhangjian/Documents/cuda-learning-example/cmake-build-debug/ch04/CMakeFiles/rebuild_cache.dir
+/home/zhangjian/Documents/cuda-learning-example/cmake-build-debug/ch04/CMakeFiles/julia_gpu.dir
+/home/zhangjian/Documents/cuda-learning-example/cmake-build-debug/ch04/CMakeFiles/edit_cache.dir

@@ -1,1 +1,0 @@
-/usr/bin/c++   -g   CMakeFiles/dot.dir/dot_generated_dot.cu.o  -o ../bin/dot -rdynamic /usr/local/cuda-9.0/lib64/libcudart_static.a -lpthread -ldl -lrt 

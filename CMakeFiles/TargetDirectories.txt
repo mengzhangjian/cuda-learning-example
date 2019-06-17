@@ -1,0 +1,6 @@
+/home/zhangjian/Documents/cuda-learning-example/CMakeFiles/edit_cache.dir
+/home/zhangjian/Documents/cuda-learning-example/CMakeFiles/rebuild_cache.dir
+/home/zhangjian/Documents/cuda-learning-example/ch06/CMakeFiles/rebuild_cache.dir
+/home/zhangjian/Documents/cuda-learning-example/ch06/CMakeFiles/edit_cache.dir
+/home/zhangjian/Documents/cuda-learning-example/ch06/CMakeFiles/ray_constant.dir
+/home/zhangjian/Documents/cuda-learning-example/ch06/CMakeFiles/ray.dir

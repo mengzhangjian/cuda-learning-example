@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cuda_by_example"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\opt\;CMake Files\..\..\..\..\opt\ros\;CMake Files\..\..\..\..\opt\ros\kinetic\;CMake Files\..\..\..\..\opt\ros\kinetic\share\;CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1\;CMake Files\ch04\;CMake Files\ch05\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/zhangjian/Documents/cuda-learning-example"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/zhangjian/Documents/cuda-learning-example/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/zhangjian/Documents/cuda-learning-example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/zhangjian/Documents/cuda-learning-example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/zhangjian/Documents/cuda-learning-example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/zhangjian/Documents/cuda-learning-example"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/zhangjian/Documents/cuda-learning-example/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/zhangjian/Documents/cuda-learning-example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/zhangjian/Documents/cuda-learning-example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/zhangjian/Documents/cuda-learning-example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/zhangjian/Documents/cuda-learning-example"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/zhangjian/Documents/cuda-learning-example/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/zhangjian/Documents/cuda-learning-example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/zhangjian/Documents/cuda-learning-example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/zhangjian/Documents/cuda-learning-example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="julia_gpu">
+				<Option output="/home/zhangjian/Documents/cuda-learning-example/bin/julia_gpu" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhangjian/Documents/cuda-learning-example/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-9.0/include"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1/opencv"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/zhangjian/Documents/cuda-learning-example/ch04/Makefile&quot;  VERBOSE=1 julia_gpu"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/zhangjian/Documents/cuda-learning-example/ch04/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/zhangjian/Documents/cuda-learning-example/ch04/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/zhangjian/Documents/cuda-learning-example/ch04/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="julia_gpu/fast">
+				<Option output="/home/zhangjian/Documents/cuda-learning-example/bin/julia_gpu" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhangjian/Documents/cuda-learning-example/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-9.0/include"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1/opencv"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/zhangjian/Documents/cuda-learning-example/ch04/Makefile&quot;  VERBOSE=1 julia_gpu/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/zhangjian/Documents/cuda-learning-example/ch04/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/zhangjian/Documents/cuda-learning-example/ch04/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/zhangjian/Documents/cuda-learning-example/ch04/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ripple">
+				<Option output="/home/zhangjian/Documents/cuda-learning-example/bin/ripple" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhangjian/Documents/cuda-learning-example/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-9.0/include"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1/opencv"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/zhangjian/Documents/cuda-learning-example/ch05/Makefile&quot;  VERBOSE=1 ripple"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/zhangjian/Documents/cuda-learning-example/ch05/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/zhangjian/Documents/cuda-learning-example/ch05/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/zhangjian/Documents/cuda-learning-example/ch05/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ripple/fast">
+				<Option output="/home/zhangjian/Documents/cuda-learning-example/bin/ripple" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhangjian/Documents/cuda-learning-example/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-9.0/include"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1/opencv"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/zhangjian/Documents/cuda-learning-example/ch05/Makefile&quot;  VERBOSE=1 ripple/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/zhangjian/Documents/cuda-learning-example/ch05/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/zhangjian/Documents/cuda-learning-example/ch05/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/zhangjian/Documents/cuda-learning-example/ch05/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="green">
+				<Option output="/home/zhangjian/Documents/cuda-learning-example/bin/green" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhangjian/Documents/cuda-learning-example/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-9.0/include"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1/opencv"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/zhangjian/Documents/cuda-learning-example/ch05/Makefile&quot;  VERBOSE=1 green"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/zhangjian/Documents/cuda-learning-example/ch05/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/zhangjian/Documents/cuda-learning-example/ch05/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/zhangjian/Documents/cuda-learning-example/ch05/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="green/fast">
+				<Option output="/home/zhangjian/Documents/cuda-learning-example/bin/green" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhangjian/Documents/cuda-learning-example/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-9.0/include"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1/opencv"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/zhangjian/Documents/cuda-learning-example/ch05/Makefile&quot;  VERBOSE=1 green/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/zhangjian/Documents/cuda-learning-example/ch05/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/zhangjian/Documents/cuda-learning-example/ch05/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/zhangjian/Documents/cuda-learning-example/ch05/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/zhangjian/Documents/cuda-learning-example/ch04/CMakeFiles/julia_gpu.dir/julia_gpu_generated_julia_gpu.cu.o">
+			<Option target="julia_gpu"/>
+		</Unit>
+		<Unit filename="/home/zhangjian/Documents/cuda-learning-example/ch04/julia_gpu.cu">
+			<Option target="julia_gpu"/>
+		</Unit>
+		<Unit filename="/home/zhangjian/Documents/cuda-learning-example/ch05/CMakeFiles/green.dir/green_generated_green.cu.o">
+			<Option target="green"/>
+		</Unit>
+		<Unit filename="/home/zhangjian/Documents/cuda-learning-example/ch05/CMakeFiles/ripple.dir/ripple_generated_ripple.cu.o">
+			<Option target="ripple"/>
+		</Unit>
+		<Unit filename="/home/zhangjian/Documents/cuda-learning-example/ch05/green.cu">
+			<Option target="green"/>
+		</Unit>
+		<Unit filename="/home/zhangjian/Documents/cuda-learning-example/ch05/ripple.cu">
+			<Option target="ripple"/>
+		</Unit>
+		<Unit filename="/home/zhangjian/Documents/cuda-learning-example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/zhangjian/Documents/cuda-learning-example/../../../../opt/ros/kinetic/share/OpenCV-3.3.1/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1\"/>
+		</Unit>
+		<Unit filename="/home/zhangjian/Documents/cuda-learning-example/../../../../opt/ros/kinetic/share/OpenCV-3.3.1/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1\"/>
+		</Unit>
+		<Unit filename="/home/zhangjian/Documents/cuda-learning-example/../../../../opt/ros/kinetic/share/OpenCV-3.3.1/OpenCVModules-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1\"/>
+		</Unit>
+		<Unit filename="/home/zhangjian/Documents/cuda-learning-example/../../../../opt/ros/kinetic/share/OpenCV-3.3.1/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1\"/>
+		</Unit>
+		<Unit filename="/home/zhangjian/Documents/cuda-learning-example/ch04/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ch04\"/>
+		</Unit>
+		<Unit filename="/home/zhangjian/Documents/cuda-learning-example/ch05/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ch05\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
