@@ -3,3 +3,11 @@ CMAKE_MINIMUM_REQUIRED(VERSION 3.1)
 CUDA_ADD_EXECUTABLE(julia_gpu julia_gpu.cu)
 SET_PROPERTY(TARGET julia_gpu PROPERTY FOLDER ch04)
 TARGET_LINK_LIBRARIES(julia_gpu ${OpenCV_LIBS})
+
+CUDA_ADD_EXECUTABLE(image_to_blur image_to_blur.cu)
+SET_PROPERTY(TARGET image_to_blur PROPERTY FOLDER ch04)
+TARGET_LINK_LIBRARIES(image_to_blur ${OpenCV_LIBS})
+
+CUDA_ADD_EXECUTABLE(image_to_gray image_to_gray.cu)
+SET_PROPERTY(TARGET image_to_gray PROPERTY FOLDER ch04)
+TARGET_LINK_LIBRARIES(image_to_gray ${OpenCV_LIBS})
